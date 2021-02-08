@@ -24,8 +24,8 @@ float main()
 {
     float x,y,z,k;
     x=input();
-    y=input;
-    z=input;
+    y=input();
+    z=input();
     k=find_volume(x,y,z);
 
     output(x,y,z);
