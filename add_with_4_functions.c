@@ -1,9 +1,9 @@
 //Write a program to add two user input numbers using 4 functions.
 #include <stdio.h>
-int.input()
+int input()
 {
     int a,b;
-    printf("Enter a number");
+    printf("Enter a number:");
     scanf("%d", &a);
     return a;
 }
@@ -26,8 +26,9 @@ int main()
 {
     int x,y,z;
     x=input();
-    y=inp int xut();
+    y=input();
     z=find_sum(x,y);
     output(x,y,z);
     return 0;
 }
+
